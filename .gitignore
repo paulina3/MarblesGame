@@ -6,3 +6,6 @@
 
 # Don't ignore .png images
 !*.png
+
+# Don't ignore folders
+!images/

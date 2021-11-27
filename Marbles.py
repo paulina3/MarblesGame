@@ -18,12 +18,12 @@ chosen_ball = None  # ball chosen to move
 chosen_destination = None  # destination of chosen ball
 
 # Colors definitions (images)
-white = "white.png"     # blank
-blue = "blue.png"       # number 0
-green = "green.png"     # number 1
-red = "red.png"         # number 2
-yellow = "yellow.png"   # number 3
-purple = "purple.png"   # number 4
+white = "images/white.png"     # blank
+blue = "images/blue.png"       # number 0
+green = "images/green.png"     # number 1
+red = "images/red.png"         # number 2
+yellow = "images/yellow.png"   # number 3
+purple = "images/purple.png"   # number 4
 colors_definition = [blue, green, red, yellow, purple, white]
 
 # User's total score
