@@ -128,7 +128,7 @@ def next_rand_balls():
     for i in range(next_balls_number):
         pos_x = randint(0, board_size - 1)
         pos_y = randint(0, board_size - 1)
-        # If filed not empty, try next one
+        # If field not empty, try next one
         while board[pos_x][pos_y].value is not None:
             pos_x = (pos_x + 1) % board_size
             while board[pos_x][pos_y].value is not None:
