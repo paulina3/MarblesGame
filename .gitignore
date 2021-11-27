@@ -3,3 +3,6 @@
 
 # Don't ignore Python files
 !*.py
+
+# Don't ignore .png images
+!*.png
